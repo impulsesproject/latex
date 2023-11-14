@@ -1,0 +1,37 @@
+{
+    "workbench.colorTheme": "Night Owl Black",
+    "workbench.iconTheme": "vscode-icons",
+    "explorer.autoReveal": true,
+    "editor.wordWrap": "on",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 10000,
+    "editor.formatOnSave": true,
+    "editor.guides.bracketPairs": true,
+    "editor.fontLigatures": true,
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "editor.tabSize": 4,
+    "editor.linkedEditing": true,
+    "codeium.enableConfig": {
+        "*": true,
+        "markdown": true
+    },
+    "files.eol": "\n",
+    // Latex settings
+    "latex-workshop.chktex.enabled": true,
+    "latex-workshop.latex.outDir": "./out",
+    "latex-workshop.synctex.afterBuild.enabled": true,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.clean.subfolder.enabled": true,
+    "latex-workshop.latex.autoClean.run": "onBuilt",
+    "files.associations": {
+        "*.tex": "latex"
+    },
+    "latex-workshop.latexindent.args": [
+        "-c",
+        "%DIR%/",
+        "%TMPFILE%",
+        "-y=\"defaultIndent: '%INDENT%',onlyOneBackUp: 1\"",
+    ]
+}
