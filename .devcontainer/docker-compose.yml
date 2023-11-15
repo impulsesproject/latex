@@ -8,6 +8,7 @@ services:
       - ~/.ssh:/root/.ssh:ro
       - /var/run/docker.sock:/var/run/docker.sock
     extra_hosts:
+      - "host.docker.internal:host-gateway"
       - "docker.for.mac.host.internal:host-gateway"
     environment:
       - TZ=
